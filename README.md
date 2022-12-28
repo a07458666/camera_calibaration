@@ -5,3 +5,8 @@ This code was built using [OpenCV tutorial](https://docs.opencv.org/4.x/dc/dbb/t
 
 ![run](./img/img1.png)
 ![camera matrix](./img/img2.png)
+
+## Run
+```python
+python3 camera_calibaration.py
+```
