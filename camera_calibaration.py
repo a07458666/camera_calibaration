@@ -11,7 +11,7 @@ objp[:,:2] = np.mgrid[0:checkerboard[0],0:checkerboard[1]].T.reshape(-1,2)
 # Arrays to store object points and image points from all the images.
 objpoints = [] # 3d point in real world space
 imgpoints = [] # 2d points in image plane.
-images = glob.glob('./img/*.jpg')
+images = glob.glob('./camera_img/*.jpg')
 for fname in images:
     print("fname : ", fname)
     img = cv.imread(fname)
